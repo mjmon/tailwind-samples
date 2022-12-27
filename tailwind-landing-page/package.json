@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mjmon/tailwind_samples/issues"
   },
-  "homepage": "https://github.com/mjmon/tailwind_samples#readme"
+  "homepage": "https://github.com/mjmon/tailwind_samples#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
